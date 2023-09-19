@@ -13,7 +13,7 @@ export default function Nav() {
       <ul className='flex items-center justify-between px-8 py-4'>
         <li>
           <Link href='/'>
-            <a className='font-bold text-green-400'>Home</a>
+            <a className='font-bold text-blue-400'>Home</a>
           </Link>
         </li>
         <ul className='flex items-center justify-between space-x-4'>
@@ -21,7 +21,7 @@ export default function Nav() {
             <li key={`${href}${label}`}>
               <UnstyledLink
                 href={href}
-                className='text-white hover:text-green-400'
+                className='text-white hover:text-blue-400'
               >
                 {label}
               </UnstyledLink>
