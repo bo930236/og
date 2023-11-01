@@ -8,7 +8,7 @@ import { deploymentURL } from '@/constant/env';
 const defaultMeta = {
   title: 'Open Graph Generator',
   siteName: 'Open Graph Generator',
-  description: 'Made for personal use by Bobo Tsai',
+  description: 'Made for personal use by Bobo Tsai.',
   url: deploymentURL,
   image: `${deploymentURL}/images/logo.jpg`,
   type: 'website',
